@@ -1,0 +1,74 @@
+{
+  "title": "现代软件开发者 - 中文学习教程",
+  "description": "基于斯坦福大学 CS146S 课程的中文学习教程，涵盖 LLM、AI 辅助开发、编码代理等现代软件开发技术",
+  "author": "基于斯坦福大学 CS146S 课程",
+  "language": "zh-hans",
+  "gitbook": ">=3.0.0",
+  "root": ".",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md",
+    "glossary": "GLOSSARY.md"
+  },
+  "links": {
+    "sidebar": {
+      "课程官网": "https://themodernsoftware.dev/"
+    }
+  },
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro",
+    "anchor-navigation-ex",
+    "code",
+    "copy-code-button",
+    "expandable-chapters-small",
+    "splitter",
+    "back-to-top-button",
+    "chapter-fold",
+    "favicon"
+  ],
+  "pluginsConfig": {
+    "search-pro": {
+      "maxWordLength": 20
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "associatedWithSummary": true,
+      "printLog": false,
+      "multipleH1": true,
+      "mode": "float",
+      "showGoTop": true,
+      "float": {
+        "floatIcon": "fa fa-navicon",
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      },
+      "pageTop": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      }
+    },
+    "code": {
+      "copyButtons": false
+    },
+    "copy-code-button": {
+      "label": "复制",
+      "position": "right"
+    },
+    "favicon": {
+      "shortcut": "favicon.ico",
+      "bookmark": "favicon.ico"
+    },
+    "chapter-fold": {
+      "levels": 1
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  }
+}
