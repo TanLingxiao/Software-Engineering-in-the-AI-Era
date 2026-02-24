@@ -1,4 +1,4 @@
-- [代理架构与组件](01-agent-architecture.md)
-- [工具使用与函数调用](02-tools-and-function-calling.md)
-- [模型上下文协议 (MCP)](03-mcp.md)
-- [作业：AI IDE 初体验](04-assignment.md)
+- [代理架构与组件](week2/01-agent-architecture)
+- [工具使用与函数调用](week2/02-tools-and-function-calling)
+- [模型上下文协议 (MCP)](week2/03-mcp)
+- [作业：AI IDE 初体验](week2/04-assignment)

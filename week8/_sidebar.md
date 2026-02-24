@@ -1,3 +1,3 @@
-- [面向所有人的设计与前端](01-design-for-everyone.md)
-- [快速 UI/UX 原型与迭代](02-rapid-prototyping.md)
-- [作业：多栈 Web 应用构建](03-assignment.md)
+- [面向所有人的设计与前端](week8/01-design-for-everyone)
+- [快速 UI/UX 原型与迭代](week8/02-rapid-prototyping)
+- [作业：多栈 Web 应用构建](week8/03-assignment)

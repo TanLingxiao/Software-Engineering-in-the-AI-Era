@@ -1,3 +1,3 @@
-- [AI 系统的监控与可观测性](01-monitoring-observability.md)
-- [自动化事件响应](02-automated-incident-response.md)
-- [故障排查与调试](03-triaging-debugging.md)
+- [AI 系统的监控与可观测性](week9/01-monitoring-observability)
+- [自动化事件响应](week9/02-automated-incident-response)
+- [故障排查与调试](week9/03-triaging-debugging)

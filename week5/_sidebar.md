@@ -1,3 +1,3 @@
-- [AI 增强的命令行界面](01-ai-cli.md)
-- [终端自动化与脚本](02-terminal-automation.md)
-- [作业：使用 Warp 进行代理开发](03-assignment.md)
+- [AI 增强的命令行界面](week5/01-ai-cli)
+- [终端自动化与脚本](week5/02-terminal-automation)
+- [作业：使用 Warp 进行代理开发](week5/03-assignment)

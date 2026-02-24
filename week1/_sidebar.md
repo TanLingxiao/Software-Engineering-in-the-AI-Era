@@ -1,3 +1,3 @@
-- [LLM 基础知识](01-llm-basics.md)
-- [有效提示工程](02-prompt-engineering.md)
-- [作业：LLM 提示游乐场](03-assignment.md)
+- [LLM 基础知识](week1/01-llm-basics)
+- [有效提示工程](week1/02-prompt-engineering)
+- [作业：LLM 提示游乐场](week1/03-assignment)

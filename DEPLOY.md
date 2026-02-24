@@ -169,6 +169,36 @@ A: 检查以下几点：
 4. 等待几分钟，GitHub Pages 需要时间构建
 5. 确保根目录有 `index.html` 文件
 
+### Q: 3级目录（如 week1/01-llm-basics.md）点击后404？
+
+A: 本项目已配置以下解决方案：
+
+**Docsify 配置**（index.html）：
+- `loadSidebar: true` - 自动加载当前目录的 `_sidebar.md` 文件
+- `routerMode: 'hash'` - 使用哈希路由，避免服务器路由问题
+- `subMaxLevel: 3` - 侧边栏显示3级目录
+
+**工作原理**：
+1. 访问根目录时，加载根目录的 `_sidebar.md`（包含所有week的链接）
+2. 点击 `week1/02-prompt-engineering.md` 时，Docsify自动加载 `week1/_sidebar.md`
+3. 子目录的侧边栏使用相对路径（如 `02-prompt-engineering.md`），确保正确导航
+
+**Jekyll 禁用**（.nojekyll）：
+- 根目录和 docs 目录都有 `.nojekyll` 文件
+- 防止 Jekyll 忽略以下划线开头的文件（如 `_sidebar.md`）
+
+**本地测试**：
+```bash
+# 安装 docsify-cli
+npm install -g docsify-cli
+
+# 启动本地服务器
+docsify serve .
+
+# 访问测试
+# http://localhost:3000/#/week1/02-prompt-engineering
+```
+
 ### Q: 中文显示乱码？
 
 A: 确保 `index.html` 中设置了正确的字符集：

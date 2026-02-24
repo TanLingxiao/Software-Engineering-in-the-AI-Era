@@ -1,3 +1,3 @@
-- [软件开发角色的未来](01-future-roles.md)
-- [新兴的 AI 编程范式](02-emerging-paradigms.md)
-- [行业趋势与预测](03-industry-trends.md)
+- [软件开发角色的未来](week10/01-future-roles)
+- [新兴的 AI 编程范式](week10/02-emerging-paradigms)
+- [行业趋势与预测](week10/03-industry-trends)

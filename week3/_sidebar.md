@@ -1,4 +1,4 @@
-- [上下文管理与代码理解](01-context-management.md)
-- [代理的产品需求文档 (PRD)](02-prds-for-agents.md)
-- [IDE 集成与扩展](03-ide-integrations.md)
-- [作业：构建自定义 MCP 服务器](04-assignment.md)
+- [上下文管理与代码理解](week3/01-context-management)
+- [代理的产品需求文档 (PRD)](week3/02-prds-for-agents)
+- [IDE 集成与扩展](week3/03-ide-integrations)
+- [作业：构建自定义 MCP 服务器](week3/04-assignment)

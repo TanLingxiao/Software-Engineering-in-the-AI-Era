@@ -1,4 +1,4 @@
-- [可信赖的 AI 代码系统](01-trustworthy-ai-systems.md)
-- [调试与诊断](02-debugging-diagnostics.md)
-- [智能文档生成](03-intelligent-documentation.md)
-- [作业：代码审查练习](04-assignment.md)
+- [可信赖的 AI 代码系统](week7/01-trustworthy-ai-systems)
+- [调试与诊断](week7/02-debugging-diagnostics)
+- [智能文档生成](week7/03-intelligent-documentation)
+- [作业：代码审查练习](week7/04-assignment)
